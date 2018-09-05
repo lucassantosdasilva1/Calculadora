@@ -1,8 +1,5 @@
 import pytest
-from calc import soma
-from calc import subs
-from calc import divs
-from calc import mult
+from calc import soma, subs, divs, mult
 
 def test_soma ():
 	assert soma (1,1)==2

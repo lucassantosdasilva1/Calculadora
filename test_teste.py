@@ -2,14 +2,14 @@ import pytest
 from calc import soma, subs, divs, mult
 
 def test_soma ():
-	#assert soma (1,1)==2
-	#assert soma (-1,2)==1
+	assert soma (1,1)==2
+	assert soma (-1,2)==1
 
 def test_subs ():
-	#assert subs (2,1)==1
-	#assert subs (3,2)==1
-	#assert subs (5,2.5)==2.5
-	#assert subs (10,5.2)==4.8
+	assert subs (2,1)==1
+	assert subs (3,2)==1
+	assert subs (5,2.5)==2.5
+	assert subs (10,5.2)==4.8
 
 def test_div ():
 	assert divs (10,5)==2

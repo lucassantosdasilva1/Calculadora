@@ -2,7 +2,7 @@ import pytest
 from calc import soma, subs, divs, mult
 
 def test_soma ():
-	assert soma (1,1)==2,
+	assert soma (1,1)==2
 	assert soma (-1,2)==1
 
 def test_subs ():

@@ -13,3 +13,6 @@ def divs (a,b):
 def mult (a,b):
 	c = a*b
 	return c
+def new (i=0):
+	i=i
+	return i
